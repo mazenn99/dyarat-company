@@ -29,6 +29,8 @@
     <!-- Template Main CSS File -->
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
 
+    {{--  fonts  --}}
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet">
     <!-- =======================================================
     * Template Name: FlexStart - v1.4.0
     * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/

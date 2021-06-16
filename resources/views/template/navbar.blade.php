@@ -10,7 +10,7 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto @if(request()->routeIs('/') ? 'active' : '') @endif" href="{{route('index_page')}}">{{__('navbar.home')}}</a></li>
-                <li><a class="nav-link scrollto" href="#about">{{__('navbar.our_team')}}</a></li>
+                <li><a class="nav-link scrollto @if(request()->routeIs('team*') ? 'active' : '') @endif" href="{{route('team')}}">{{__('navbar.our_team')}}</a></li>
                 <li><a class="nav-link scrollto" href="#services">{{__('navbar.services')}}</a></li>
                 <!--          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>-->
                 <!--          <li><a class="nav-link scrollto" href="#team">Team</a></li>-->

@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]], function(){
     // index page
     Route::get('/' , 'HomeController@index')->name('index_page');
+    // team page
+    Route::get('team' , 'HomeController@team')->name('team');
 
     // companies page
     Route::group([] , function() {

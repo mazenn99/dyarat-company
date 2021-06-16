@@ -11,4 +11,8 @@ class HomeController extends Controller
     public function index() {
         return view('pages.index');
     }
+
+    public function team() {
+        return view('pages.team');
+    }
 }
