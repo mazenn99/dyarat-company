@@ -8,4 +8,5 @@
         'our_client' => 'عملائنا',
         'contact'   => 'تواصل معنا',
         'language' => 'اللغة',
+        'our_project' => 'مشاريعنا'
     ];

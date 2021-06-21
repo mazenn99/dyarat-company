@@ -10,8 +10,7 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto @if(request()->routeIs('/') ? 'active' : '') @endif" href="{{route('index_page')}}">{{__('navbar.home')}}</a></li>
-                <li><a class="nav-link scrollto @if(request()->routeIs('team*') ? 'active' : '') @endif" href="{{route('team')}}">{{__('navbar.our_team')}}</a></li>
-                <li><a class="nav-link scrollto" href="#services">{{__('navbar.services')}}</a></li>
+                <li><a class="nav-link scrollto" href="{{route('project_page')}}">{{__('navbar.our_project')}}</a></li>
                 <!--          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>-->
                 <!--          <li><a class="nav-link scrollto" href="#team">Team</a></li>-->
                 <!--          <li><a href="blog.html">Blog</a></li>-->
@@ -52,8 +51,8 @@
                         <li><a href="{{route('najat')}}">الوطنية للتمويل</a></li>
                     </ul>
                 </li>
-                <li><a class="nav-link scrollto" href="#portfolio">{{__('navbar.investment')}}</a></li>
                 <li><a class="nav-link scrollto" href="#portfolio">{{__('navbar.our_client')}}</a></li>
+                <li><a class="nav-link scrollto @if(request()->routeIs('team*') ? 'active' : '') @endif" href="{{route('team')}}">{{__('navbar.our_team')}}</a></li>
                 <li><a class="nav-link scrollto" href="#portfolio">{{__('navbar.contact')}}</a></li>
                 <li class="dropdown"><a href="#"><span>{{__('navbar.language')}}</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>

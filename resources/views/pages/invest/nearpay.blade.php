@@ -1,7 +1,6 @@
 @extends('template.master')
-@section('title' , __('companies/aldares.company_name'))
+@section('title' , __('invest/nearpay.company_name'))
 @section('content')
-
     <main id="main">
 
         <!-- ======= Breadcrumbs ======= -->
@@ -10,20 +9,19 @@
 
                 <ol>
                     <li><a href="{{route('index_page')}}">{{__('navbar.home')}}</a></li>
-                    <li>{{__('companies/najat.company_name')}}</li>
+                    <li>{{__('invest/nearpay.company_name')}}</li>
                 </ol>
-                <h2>{{__('companies/najat.company_name')}}</h2>
+                <h2>{{__('invest/nearpay.company_name')}}</h2>
 
             </div>
         </section><!-- End Breadcrumbs -->
 
         <section class="inner-page">
             <div class="container">
-                <img class="company_logo" src="{{asset('assets/img/company/najat.png')}}" alt="">
-                <a class="text-center d-block my-5" href="http://www.dar-alnajat.com">www.dar-alnajat.com
-                </a>
+                <img class="company_logo" src="{{asset('assets/img/company/nearpay.png')}}" alt="">
+                <a class="text-center d-block my-5" href="https://nearpay.io/">nearpay.io</a>
                 <p style="font-size: 20px;color:#013289">
-                    {{__('companies/najat.company_description')}}
+                    {{__('invest/nearpay.company_description')}}
                 </p>
             </div>
 

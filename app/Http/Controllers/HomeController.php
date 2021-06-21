@@ -15,4 +15,8 @@ class HomeController extends Controller
     public function team() {
         return view('pages.team');
     }
+
+    public function poject() {
+        return view('pages.project');
+    }
 }

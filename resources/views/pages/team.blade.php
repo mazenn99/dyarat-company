@@ -6,7 +6,7 @@
 
             <div class="container" data-aos="fade-up">
 
-                <header class="section-header">
+                <header class="section-header mb-5">
 {{--                    <h2>Team</h2>--}}
                     <p class="mt-5">Our hard working team</p>
                 </header>
@@ -16,10 +16,10 @@
                         <div class="member-img">
                             <img src="{{asset('assets/img/team/team-1.jpg')}}" class="img-fluid" alt="">
                             <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
+{{--                                <a href=""><i class="bi bi-twitter"></i></a>--}}
+{{--                                <a href=""><i class="bi bi-facebook"></i></a>--}}
+{{--                                <a href=""><i class="bi bi-instagram"></i></a>--}}
+                                <a href="https://www.linkedin.com/in/youcef-al-hamdan-77a0b76/"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
@@ -60,10 +60,10 @@
                             <div class="member-img">
                                 <img src="{{asset('assets/img/team/team-2.jpg')}}" class="img-fluid" alt="">
                                 <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+{{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
+{{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
+{{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
+                                    <a href="https://www.linkedin.com/in/bader-alhamdan-96487895/"><i class="bi bi-linkedin"></i></a>
                                 </div>
                             </div>
                             <div class="member-info">
@@ -78,12 +78,12 @@
                         <div class="member">
                             <div class="member-img">
                                 <img src="{{asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
+{{--                                <div class="social">--}}
+{{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
+{{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
+{{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
+{{--                                    <a href=""><i class="bi bi-linkedin"></i></a>--}}
+{{--                                </div>--}}
                             </div>
                             <div class="member-info">
                                 <h4>{{__('team.hamdan')}}</h4>
@@ -98,10 +98,10 @@
                             <div class="member-img">
                                 <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="">
                                 <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+{{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
+{{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
+{{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
+                                    <a href="https://www.linkedin.com/in/hamdan-alhamdan-85364067/"><i class="bi bi-linkedin"></i></a>
                                 </div>
                             </div>
                             <div class="member-info">
@@ -116,12 +116,12 @@
                         <div class="member">
                             <div class="member-img">
                                 <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
+{{--                                <div class="social">--}}
+{{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
+{{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
+{{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
+{{--                                    <a href=""><i class="bi bi-linkedin"></i></a>--}}
+{{--                                </div>--}}
                             </div>
                             <div class="member-info">
                                 <h4>{{__('team.nazih')}}</h4>
@@ -136,10 +136,10 @@
                             <div class="member-img">
                                 <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="">
                                 <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+{{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
+{{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
+{{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
+                                    <a href="https://www.linkedin.com/in/abdulmohsen-alkhalaf-185669101/"><i class="bi bi-linkedin"></i></a>
                                 </div>
                             </div>
                             <div class="member-info">
@@ -155,10 +155,10 @@
                             <div class="member-img">
                                 <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="">
                                 <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+{{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
+{{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
+{{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
+                                <a href="https://www.linkedin.com/in/ibraheem-hobani/"><i class="bi bi-linkedin"></i></a>
                                 </div>
                             </div>
                             <div class="member-info">
@@ -174,10 +174,9 @@
                             <div class="member-img">
                                 <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="">
                                 <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+{{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
+{{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
+{{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
                                 </div>
                             </div>
                             <div class="member-info">

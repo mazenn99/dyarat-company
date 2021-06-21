@@ -18,6 +18,8 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => [ 'l
     Route::get('/' , 'HomeController@index')->name('index_page');
     // team page
     Route::get('team' , 'HomeController@team')->name('team');
+    // our project page
+    Route::get('projects' , 'HomeController@poject')->name('project_page');
 
     // companies page
     Route::group([] , function() {
@@ -26,5 +28,11 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => [ 'l
         Route::get('tatweer' , 'CompaniesController@tatweer')->name('tatweer');
         Route::get('qyas' , 'CompaniesController@qyas')->name('qyas');
         Route::get('caterer' , 'CompaniesController@caterer')->name('caterer');
+    });
+
+    // investor page
+    Route::group([] , function() {
+        Route::get('gather_in' , 'InvestorController@gatherIn')->name('gatherin');
+        Route::get('nearpay' , 'InvestorController@nearPay')->name('nearpay');
     });
 });
