@@ -26,12 +26,12 @@
                         <!--              <span>FlexStart</span>-->
                     </a>
                     <p>{{__('footer.footer_description')}}.</p>
-                    <div class="social-links mt-3">
-                        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
-                        <a href="#" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
-                    </div>
+{{--                    <div class="social-links mt-3">--}}
+{{--                        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>--}}
+{{--                        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>--}}
+{{--                        <a href="#" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>--}}
+{{--                        <a href="#" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>--}}
+{{--                    </div>--}}
                 </div>
 
                 <!--          <div class="col-lg-2 col-6 footer-links">-->
