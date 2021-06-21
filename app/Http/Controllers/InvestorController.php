@@ -16,4 +16,14 @@ class InvestorController extends Controller
     public function nearPay() {
         return view('pages.invest.nearpay');
     }
+
+    // petro app
+    public function petroapp() {
+        return view('pages.invest.petroapp');
+    }
+
+    // watani view
+    public function watani() {
+        return  view('pages.invest.watani');
+    }
 }

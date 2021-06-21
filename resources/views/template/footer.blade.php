@@ -57,13 +57,14 @@
                 <!--          </div>-->
 
                 <div class="col-lg-6 col-md-12 footer-contact text-center text-md-start">
-                    <h4>Contact Us</h4>
+                    <h4>{{__('contact.title')}}</h4>
                     <p>
-                        Alnahda street <br>
-                        Riyadh city<br>
-                        Saudi arabia <br><br>
-                        <strong>Phone:</strong> +9555555443<br>
-                        <strong>Email:</strong> info@dyarat.com<br>
+                        {{__('contact.city_district')}} <br>
+                        {{__('contact.city')}}<br>
+                        {{__('contact.ksa')}} <br><br>
+                        <strong>{{__('contact.call_us')}}:</strong><a href="tel:+966114740022">+966114740022</a><br>
+                        <strong>{{__('contact.email')}}:</strong><a href="mailto:info@deyarat.com">info@deyarat.com</a>
+                        <br>
                     </p>
 
                 </div>

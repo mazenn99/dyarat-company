@@ -45,15 +45,15 @@
                         <!--                  <li><a href="#">Deep Drop Down 5</a></li>-->
                         <!--                </ul>-->
                         <!--              </li>-->
-                        <li><a href="{{route('qyas')}}">petro app</a></li>
-                        <li><a href="{{route('tatweer')}}">gather in</a></li>
-                        <li><a href="{{route('aldares')}}">nearpay</a></li>
-                        <li><a href="{{route('najat')}}">الوطنية للتمويل</a></li>
+                        <li><a href="{{route('petroapp')}}">{{__('navbar.petroapp')}}</a></li>
+                        <li><a href="{{route('gatherin')}}">{{__('navbar.gather_in')}}</a></li>
+                        <li><a href="{{route('nearpay')}}">{{__('navbar.nearpay')}}</a></li>
+                        <li><a href="{{route('watani')}}">{{__('navbar.watani')}}</a></li>
                     </ul>
                 </li>
-                <li><a class="nav-link scrollto" href="#portfolio">{{__('navbar.our_client')}}</a></li>
+                <li><a class="nav-link scrollto" href="{{route('client')}}">{{__('navbar.our_client')}}</a></li>
                 <li><a class="nav-link scrollto @if(request()->routeIs('team*') ? 'active' : '') @endif" href="{{route('team')}}">{{__('navbar.our_team')}}</a></li>
-                <li><a class="nav-link scrollto" href="#portfolio">{{__('navbar.contact')}}</a></li>
+                <li><a class="nav-link scrollto" href="{{route('contact')}}">{{__('navbar.contact')}}</a></li>
                 <li class="dropdown"><a href="#"><span>{{__('navbar.language')}}</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <!--              <li><a href="#">Drop Down 1</a></li>-->
