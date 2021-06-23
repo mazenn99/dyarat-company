@@ -1,5 +1,5 @@
 @extends('template.master')
-@section('title' , __('contact.title'))
+@section('title' , __('client.title'))
 @section('content')
     <main id="main">
         <section id="values" class="values">
