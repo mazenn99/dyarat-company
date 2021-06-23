@@ -94,7 +94,7 @@
                         </div>
 
                     </div>
-                    <button class="btn btn-primary">{{__('contact.send_msg')}}</button>
+                    <button class="btn btn-dark">{{__('contact.send_msg')}}</button>
                 </form>
 
             </div>

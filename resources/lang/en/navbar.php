@@ -13,4 +13,5 @@
         'petroapp' => 'petroapp',
         'nearpay' => 'nearpay',
         'watani' => "watani fiance",
+        'branch' => 'branch'
     ];

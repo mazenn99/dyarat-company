@@ -1,5 +1,6 @@
 <?php
 return [
+    'our_team' => 'The company\'s team',
     'title' => 'our team',
     'yousef' => 'Youssef Hamdan Al-Hamdan',
     'yousef_position' => 'Chairman of Board of Directors',

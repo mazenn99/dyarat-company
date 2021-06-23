@@ -29,6 +29,10 @@
                         <li><a href="{{route('qyas')}}">{{__('companies/qyas.company_name')}}</a></li>
                         <li><a href="{{route('tatweer')}}">{{__('companies/tatweer.company_name')}}</a></li>
                         <li><a href="{{route('aldares')}}">{{__('companies/aldares.company_name')}}</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#"><span>{{__('navbar.branch')}}</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
                         <li><a href="{{route('najat')}}">{{__('companies/najat.company_name')}}</a></li>
                         <li><a href="{{route('caterer')}}">{{__('companies/caterer.company_name')}}</a></li>
                     </ul>

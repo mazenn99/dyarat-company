@@ -7,19 +7,20 @@
             <div class="container" data-aos="fade-up">
 
                 <header class="section-header mb-5">
-{{--                    <h2>Team</h2>--}}
-                    <p class="mt-5">Our hard working team</p>
+                    {{--                    <h2>Team</h2>--}}
+                    <p class="mt-5">{{__('team.our_team')}}</p>
                 </header>
 
                 <div class="col-lg-12 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                     <div class="member" style="margin: 10px auto 40px">
                         <div class="member-img">
-                            <img src="{{asset('assets/img/team/team-1.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{asset('assets/img/blank_profile.png')}}" class="img-fluid" alt="">
                             <div class="social">
-{{--                                <a href=""><i class="bi bi-twitter"></i></a>--}}
-{{--                                <a href=""><i class="bi bi-facebook"></i></a>--}}
-{{--                                <a href=""><i class="bi bi-instagram"></i></a>--}}
-                                <a href="https://www.linkedin.com/in/youcef-al-hamdan-77a0b76/"><i class="bi bi-linkedin"></i></a>
+                                {{--                                <a href=""><i class="bi bi-twitter"></i></a>--}}
+                                {{--                                <a href=""><i class="bi bi-facebook"></i></a>--}}
+                                {{--                                <a href=""><i class="bi bi-instagram"></i></a>--}}
+                                <a href="https://www.linkedin.com/in/youcef-al-hamdan-77a0b76/"><i
+                                        class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
@@ -36,34 +37,35 @@
                 </div>
                 <div class="row gy-4">
 
-{{--                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">--}}
-{{--                        <div class="member">--}}
-{{--                            <div class="member-img">--}}
-{{--                                <img src="{{asset('assets/img/team/team-1.jpg')}}" class="img-fluid" alt="">--}}
-{{--                                <div class="social">--}}
-{{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-linkedin"></i></a>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            <div class="member-info">--}}
-{{--                                <h4>يوسف حمدان الحمدان</h4>--}}
-{{--                                <span>رئيس مجلس الاداره</span>--}}
-{{--                                <!--                    <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>-->--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
+                    {{--                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">--}}
+                    {{--                        <div class="member">--}}
+                    {{--                            <div class="member-img">--}}
+                    {{--                                <img src="{{asset('assets/img/team/team-1.jpg')}}" class="img-fluid" alt="">--}}
+                    {{--                                <div class="social">--}}
+                    {{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
+                    {{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
+                    {{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
+                    {{--                                    <a href=""><i class="bi bi-linkedin"></i></a>--}}
+                    {{--                                </div>--}}
+                    {{--                            </div>--}}
+                    {{--                            <div class="member-info">--}}
+                    {{--                                <h4>يوسف حمدان الحمدان</h4>--}}
+                    {{--                                <span>رئيس مجلس الاداره</span>--}}
+                    {{--                                <!--                    <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>-->--}}
+                    {{--                            </div>--}}
+                    {{--                        </div>--}}
+                    {{--                    </div>--}}
 
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                         <div class="member">
                             <div class="member-img">
-                                <img src="{{asset('assets/img/team/team-1.jpg')}}" class="img-fluid" alt="">
+                                <img src="{{asset('assets/img/blank_profile.png')}}" class="img-fluid" alt="">
                                 <div class="social">
-{{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
-                                    <a href="https://www.linkedin.com/in/bader-alhamdan-96487895/"><i class="bi bi-linkedin"></i></a>
+                                    {{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
+                                    {{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
+                                    {{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
+                                    <a href="https://www.linkedin.com/in/bader-alhamdan-96487895/"><i
+                                            class="bi bi-linkedin"></i></a>
                                 </div>
                             </div>
                             <div class="member-info">
@@ -77,13 +79,13 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                         <div class="member">
                             <div class="member-img">
-                                <img src="{{asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt="">
-{{--                                <div class="social">--}}
-{{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-linkedin"></i></a>--}}
-{{--                                </div>--}}
+                                <img src="{{asset('assets/img/blank_profile.png')}}" class="img-fluid" alt="">
+                                {{--                                <div class="social">--}}
+                                {{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
+                                {{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
+                                {{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
+                                {{--                                    <a href=""><i class="bi bi-linkedin"></i></a>--}}
+                                {{--                                </div>--}}
                             </div>
                             <div class="member-info">
                                 <h4>{{__('team.hamdan')}}</h4>
@@ -96,12 +98,13 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                         <div class="member">
                             <div class="member-img">
-                                <img src="{{asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt="">
+                                <img src="{{asset('assets/img/blank_profile.png')}}" class="img-fluid" alt="">
                                 <div class="social">
-{{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
-                                    <a href="https://www.linkedin.com/in/hamdan-alhamdan-85364067/"><i class="bi bi-linkedin"></i></a>
+                                    {{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
+                                    {{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
+                                    {{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
+                                    <a href="https://www.linkedin.com/in/hamdan-alhamdan-85364067/"><i
+                                            class="bi bi-linkedin"></i></a>
                                 </div>
                             </div>
                             <div class="member-info">
@@ -115,13 +118,13 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                         <div class="member">
                             <div class="member-img">
-                                <img src="{{asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt="">
-{{--                                <div class="social">--}}
-{{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-linkedin"></i></a>--}}
-{{--                                </div>--}}
+                                <img src="{{asset('assets/img/blank_profile.png')}}" class="img-fluid" alt="">
+                                {{--                                <div class="social">--}}
+                                {{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
+                                {{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
+                                {{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
+                                {{--                                    <a href=""><i class="bi bi-linkedin"></i></a>--}}
+                                {{--                                </div>--}}
                             </div>
                             <div class="member-info">
                                 <h4>{{__('team.nazih')}}</h4>
@@ -134,12 +137,13 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                         <div class="member">
                             <div class="member-img">
-                                <img src="{{asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt="">
+                                <img src="{{asset('assets/img/blank_profile.png')}}" class="img-fluid" alt="">
                                 <div class="social">
-{{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
-                                    <a href="https://www.linkedin.com/in/abdulmohsen-alkhalaf-185669101/"><i class="bi bi-linkedin"></i></a>
+                                    {{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
+                                    {{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
+                                    {{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
+                                    <a href="https://www.linkedin.com/in/abdulmohsen-alkhalaf-185669101/"><i
+                                            class="bi bi-linkedin"></i></a>
                                 </div>
                             </div>
                             <div class="member-info">
@@ -153,12 +157,13 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                         <div class="member">
                             <div class="member-img">
-                                <img src="{{asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt="">
+                                <img src="{{asset('assets/img/blank_profile.png')}}" class="img-fluid" alt="">
                                 <div class="social">
-{{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
-                                <a href="https://www.linkedin.com/in/ibraheem-hobani/"><i class="bi bi-linkedin"></i></a>
+                                    {{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
+                                    {{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
+                                    {{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
+                                    <a href="https://www.linkedin.com/in/ibraheem-hobani/"><i
+                                            class="bi bi-linkedin"></i></a>
                                 </div>
                             </div>
                             <div class="member-info">
@@ -172,11 +177,11 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                         <div class="member">
                             <div class="member-img">
-                                <img src="{{asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt="">
+                                <img src="{{asset('assets/img/blank_profile.png')}}" class="img-fluid" alt="">
                                 <div class="social">
-{{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
-{{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
+                                    {{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
+                                    {{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
+                                    {{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
                                 </div>
                             </div>
                             <div class="member-info">
