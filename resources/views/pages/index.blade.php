@@ -6,22 +6,22 @@
     <section id="hero" class="hero d-flex align-items-center">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 d-flex flex-column justify-content-center">
+                <div class="col-lg-12 d-flex flex-column justify-content-center text-center">
                     <h1 data-aos="fade-up">{{__('index.company_name')}}</h1>
 {{--                    <h2 data-aos="fade-up" data-aos-delay="400">{{__('index.short_description')}}</h2>--}}
                     <div data-aos="fade-up" data-aos-delay="600">
-                        <div class="text-center text-lg-start">
+                        <div class="text-center text-lg-start" style="text-align: center !important;">
                             <a href="#about"
-                               class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center {{app()->getLocale() == 'ar' ? 'float-end' : 'float-start'}}">
+                               class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                                 <span>{{__('index.who_we_are')}}</span>
                                 <i class="bi bi-arrow-right mx-1"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="{{asset('assets/img/index_home.jpg')}}" class="img-fluid rounded-3" alt="">
-                </div>
+{{--                <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">--}}
+{{--                    <img src="{{asset('assets/img/index_home.jpg')}}" class="img-fluid rounded-3" alt="">--}}
+{{--                </div>--}}
             </div>
         </div>
 
