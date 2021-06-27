@@ -186,6 +186,24 @@
                                 </div>
                             </div>
 
+                            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
+                                <div class="feature-box d-flex align-items-center">
+                                    <i class="bi bi-check"></i>
+                                    <h3>
+                                        {{__('project.ninth_project')}}
+                                    </h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
+                                <div class="feature-box d-flex align-items-center">
+                                    <i class="bi bi-check"></i>
+                                    <h3>
+                                        {{__('project.tenth_project')}}
+                                    </h3>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
