@@ -28,9 +28,9 @@
                         <!--                  <li><a href="#">Deep Drop Down 5</a></li>-->
                         <!--                </ul>-->
                         <!--              </li>-->
+                        <li><a href="{{route('aldares')}}">{{__('companies/aldares.company_name')}}</a></li>
                         <li><a href="{{route('qyas')}}">{{__('companies/qyas.company_name')}}</a></li>
                         <li><a href="{{route('tatweer')}}">{{__('companies/tatweer.company_name')}}</a></li>
-                        <li><a href="{{route('aldares')}}">{{__('companies/aldares.company_name')}}</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#"><span>{{__('navbar.investment')}}</span> <i class="bi bi-chevron-down"></i></a>
