@@ -2,5 +2,5 @@
 
     return [
         'company_name' => 'House of Development',
-        'company_description' => 'House of Developments provides solutions to the market’s technical challenges. House of Development’s goal is to help open a new horizon in finding new techniques to overcome the challenges in different industries and sector. Also, House of Development is the exclusive dealer of AIRTAG, the leading company in mobile app solution'
+        'company_description' => 'development house for tracking systems and fleet management is a saudi company specialized in technical solutions and artificial intelligence for transport fleets and private and government vehicles, managed by a group of ambitious national competencies'
     ];

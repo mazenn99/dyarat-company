@@ -10,10 +10,12 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto @if(request()->routeIs('/') ? 'active' : '') @endif" href="{{route('index_page')}}">{{__('navbar.home')}}</a></li>
-                <li><a class="nav-link scrollto" href="{{route('project_page')}}">{{__('navbar.our_project')}}</a></li>
-                <!--          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>-->
-                <!--          <li><a class="nav-link scrollto" href="#team">Team</a></li>-->
-                <!--          <li><a href="blog.html">Blog</a></li>-->
+                <li class="dropdown"><a href="#"><span>{{__('navbar.branch')}}</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="{{route('najat')}}">{{__('companies/najat.company_name')}}</a></li>
+                        <li><a href="{{route('caterer')}}">{{__('companies/caterer.company_name')}}</a></li>
+                    </ul>
+                </li>
                 <li class="dropdown"><a href="#"><span>{{__('navbar.companies')}}</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <!--              <li><a href="#">Drop Down 1</a></li>-->
@@ -29,12 +31,6 @@
                         <li><a href="{{route('qyas')}}">{{__('companies/qyas.company_name')}}</a></li>
                         <li><a href="{{route('tatweer')}}">{{__('companies/tatweer.company_name')}}</a></li>
                         <li><a href="{{route('aldares')}}">{{__('companies/aldares.company_name')}}</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown"><a href="#"><span>{{__('navbar.branch')}}</span> <i class="bi bi-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="{{route('najat')}}">{{__('companies/najat.company_name')}}</a></li>
-                        <li><a href="{{route('caterer')}}">{{__('companies/caterer.company_name')}}</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#"><span>{{__('navbar.investment')}}</span> <i class="bi bi-chevron-down"></i></a>
@@ -55,8 +51,12 @@
                         <li><a href="{{route('watani')}}">{{__('navbar.watani')}}</a></li>
                     </ul>
                 </li>
-                <li><a class="nav-link scrollto" href="{{route('client')}}">{{__('navbar.our_client')}}</a></li>
                 <li><a class="nav-link scrollto @if(request()->routeIs('team*') ? 'active' : '') @endif" href="{{route('team')}}">{{__('navbar.our_team')}}</a></li>
+                <li><a class="nav-link scrollto" href="{{route('project_page')}}">{{__('navbar.our_project')}}</a></li>
+                <!--          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>-->
+                <!--          <li><a class="nav-link scrollto" href="#team">Team</a></li>-->
+                <!--          <li><a href="blog.html">Blog</a></li>-->
+                <li><a class="nav-link scrollto" href="{{route('client')}}">{{__('navbar.our_client')}}</a></li>
                 <li><a class="nav-link scrollto" href="{{route('contact')}}">{{__('navbar.contact')}}</a></li>
                 <li class="dropdown"><a href="#"><span>{{__('navbar.language')}}</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
