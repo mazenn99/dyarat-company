@@ -33,6 +33,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => [ 'l
         Route::get('tatweer' , 'CompaniesController@tatweer')->name('tatweer');
         Route::get('qyas' , 'CompaniesController@qyas')->name('qyas');
         Route::get('caterer' , 'CompaniesController@caterer')->name('caterer');
+        Route::get('mayeera' , 'CompaniesController@mayeera')->name('mayeera');
     });
 
     // investor page

@@ -25,4 +25,8 @@ class CompaniesController extends Controller
     public function caterer() {
         return view('pages.companies.caterer');
     }
+
+    public function mayeera() {
+        return view('pages.companies.moyara');
+    }
 }

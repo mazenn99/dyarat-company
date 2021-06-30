@@ -14,7 +14,7 @@
                 <div class="col-lg-12 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                     <div class="member" style="margin: 10px auto 40px">
                         <div class="member-img">
-                            <img src="{{asset('assets/img/team/empty_profile.svg')}}" class="img-fluid" alt="">
+                            <img src="{{asset('assets/img/team/leadership-profile.png')}}" class="img-fluid" alt="">
                             <div class="social">
                                 {{--                                <a href=""><i class="bi bi-twitter"></i></a>--}}
                                 {{--                                <a href=""><i class="bi bi-facebook"></i></a>--}}
@@ -33,7 +33,7 @@
 
                 <div>
                     <hr class="mb-5">
-                    <h1 class="text-center mb-5">{{__('team.manager')}}</h1>
+{{--                    <h1 class="text-center mb-5">{{__('team.manager')}}</h1>--}}
                 </div>
                 <div class="row gy-4">
 
@@ -59,7 +59,7 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                         <div class="member">
                             <div class="member-img">
-                                <img src="{{asset('assets/img/team/empty_profile.svg')}}" class="img-fluid" alt="">
+                                <img src="{{asset('assets/img/team/leadership-profile.png')}}" class="img-fluid" alt="">
                                 <div class="social">
                                     {{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
                                     {{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
@@ -79,7 +79,7 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                         <div class="member">
                             <div class="member-img">
-                                <img src="{{asset('assets/img/team/empty_profile.svg')}}" class="img-fluid" alt="">
+                                <img src="{{asset('assets/img/team/leadership-profile.png')}}" class="img-fluid" alt="">
                                 {{--                                <div class="social">--}}
                                 {{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
                                 {{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
@@ -98,7 +98,7 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                         <div class="member">
                             <div class="member-img">
-                                <img src="{{asset('assets/img/team/empty_profile.svg')}}" class="img-fluid" alt="">
+                                <img src="{{asset('assets/img/team/leadership-profile.png')}}" class="img-fluid" alt="">
                                 <div class="social">
                                     {{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
                                     {{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
@@ -118,7 +118,7 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                         <div class="member">
                             <div class="member-img">
-                                <img src="{{asset('assets/img/team/empty_profile.svg')}}" class="img-fluid" alt="">
+                                <img src="{{asset('assets/img/team/leadership-profile.png')}}" class="img-fluid" alt="">
                                 {{--                                <div class="social">--}}
                                 {{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
                                 {{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
@@ -137,7 +137,7 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                         <div class="member">
                             <div class="member-img">
-                                <img src="{{asset('assets/img/team/empty_profile.svg')}}" class="img-fluid" alt="">
+                                <img src="{{asset('assets/img/team/leadership-profile.png')}}" class="img-fluid" alt="">
                                 <div class="social">
                                     {{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
                                     {{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
@@ -157,7 +157,7 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                         <div class="member">
                             <div class="member-img">
-                                <img src="{{asset('assets/img/team/empty_profile.svg')}}" class="img-fluid" alt="">
+                                <img src="{{asset('assets/img/team/leadership-profile.png')}}" class="img-fluid" alt="">
                                 <div class="social">
                                     {{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
                                     {{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
@@ -177,7 +177,7 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                         <div class="member">
                             <div class="member-img">
-                                <img src="{{asset('assets/img/team/empty_profile.svg')}}" class="img-fluid" alt="">
+                                <img src="{{asset('assets/img/team/leadership-profile.png')}}" class="img-fluid" alt="">
                                 <div class="social">
                                     {{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
                                     {{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}

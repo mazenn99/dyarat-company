@@ -12,8 +12,10 @@
                 <li><a class="nav-link scrollto @if(request()->routeIs('/') ? 'active' : '') @endif" href="{{route('index_page')}}">{{__('navbar.home')}}</a></li>
                 <li class="dropdown"><a href="#"><span>{{__('navbar.branch')}}</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="{{route('najat')}}">{{__('companies/najat.company_name')}}</a></li>
-                        <li><a href="{{route('caterer')}}">{{__('companies/caterer.company_name')}}</a></li>
+                        <li><a href="{{route('aldares')}}">{{__('companies/aldares.company_name')}}</a></li>
+                        <li><a href="{{route('mayeera')}}">{{__('companies/moayara.company_name')}}</a></li>
+                        <li><a href="{{route('qyas')}}">{{__('companies/qyas.company_name')}}</a></li>
+                        <li><a href="{{route('tatweer')}}">{{__('companies/tatweer.company_name')}}</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#"><span>{{__('navbar.companies')}}</span> <i class="bi bi-chevron-down"></i></a>
@@ -28,9 +30,8 @@
                         <!--                  <li><a href="#">Deep Drop Down 5</a></li>-->
                         <!--                </ul>-->
                         <!--              </li>-->
-                        <li><a href="{{route('aldares')}}">{{__('companies/aldares.company_name')}}</a></li>
-                        <li><a href="{{route('qyas')}}">{{__('companies/qyas.company_name')}}</a></li>
-                        <li><a href="{{route('tatweer')}}">{{__('companies/tatweer.company_name')}}</a></li>
+                        <li><a href="{{route('najat')}}">{{__('companies/najat.company_name')}}</a></li>
+                        <li><a href="{{route('caterer')}}">{{__('companies/caterer.company_name')}}</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#"><span>{{__('navbar.investment')}}</span> <i class="bi bi-chevron-down"></i></a>
