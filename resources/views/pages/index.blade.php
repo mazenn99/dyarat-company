@@ -64,62 +64,62 @@
         </section><!-- End About Section -->
 
         <!-- ======= Values Section ======= -->
-        <section id="values" class="values">
+{{--        <section id="values" class="values">--}}
 
-            <div class="container" data-aos="fade-up">
+{{--            <div class="container" data-aos="fade-up">--}}
 
-                <header class="section-header">
-                    <h2>{{__('index.our_company')}}</h2>
-                    <p>{{__('index.mother_company')}}</p>
-                </header>
+{{--                <header class="section-header">--}}
+{{--                    <h2>{{__('index.our_company')}}</h2>--}}
+{{--                    <p>{{__('index.mother_company')}}</p>--}}
+{{--                </header>--}}
 
-                <div class="row">
+{{--                <div class="row">--}}
 
-                    <div class="col-lg-3">
-                        <div class="box" data-aos="fade-up" data-aos-delay="200">
-                            <img class="img-fluid" src="{{asset('assets/img/company/dar_alqyas_logo.png')}}"
-                                 alt="{{__('companies/qyas.company_name')}}">
-                            <h3>{{__('companies/qyas.company_name')}}</h3>
-                            <p>{{\Illuminate\Support\Str::words(__('companies/qyas.company_description') , 8 , ' ...')}}</p>
-                            <a class="text-center d-block my-5" href="https://www.homtrading.com">www.homtrading.com</a>
-                        </div>
-                    </div>
+{{--                    <div class="col-lg-3">--}}
+{{--                        <div class="box" data-aos="fade-up" data-aos-delay="200">--}}
+{{--                            <img class="img-fluid" src="{{asset('assets/img/company/dar_alqyas_logo.png')}}"--}}
+{{--                                 alt="{{__('companies/qyas.company_name')}}">--}}
+{{--                            <h3>{{__('companies/qyas.company_name')}}</h3>--}}
+{{--                            <p>{{\Illuminate\Support\Str::words(__('companies/qyas.company_description') , 8 , ' ...')}}</p>--}}
+{{--                            <a class="text-center d-block my-5" href="https://www.homtrading.com">www.homtrading.com</a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                    <div class="col-lg-3">
-                        <div class="box" data-aos="fade-up" data-aos-delay="200">
-                            <img class="img-fluid" src="{{asset('assets/img/company/najat.png')}}"
-                                 alt="{{__('companies/qyas.company_name')}}">
-                            <h3>{{__('companies/najat.company_name')}}</h3>
-                            <p>{{\Illuminate\Support\Str::words(__('companies/najat.company_description') , 8 , ' ...')}}</p>
-                            <a class="text-center d-block my-5"
-                               href="https://www.dar-alnajat.com">www.dar-alnajat.com</a>
-                        </div>
-                    </div>
+{{--                    <div class="col-lg-3">--}}
+{{--                        <div class="box" data-aos="fade-up" data-aos-delay="200">--}}
+{{--                            <img class="img-fluid" src="{{asset('assets/img/company/najat.png')}}"--}}
+{{--                                 alt="{{__('companies/qyas.company_name')}}">--}}
+{{--                            <h3>{{__('companies/najat.company_name')}}</h3>--}}
+{{--                            <p>{{\Illuminate\Support\Str::words(__('companies/najat.company_description') , 8 , ' ...')}}</p>--}}
+{{--                            <a class="text-center d-block my-5"--}}
+{{--                               href="https://www.dar-alnajat.com">www.dar-alnajat.com</a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                    <div class="col-lg-3">
-                        <div class="box" data-aos="fade-up" data-aos-delay="200">
-                            <img class="img-fluid" src="{{asset('assets/img/company/daras.png')}}"
-                                 alt="{{__('companies/aldares.company_name')}}">
-                            <h3>{{__('companies/aldares.company_name')}}</h3>
-                            <p>{{\Illuminate\Support\Str::words(__('companies/aldares.company_description') , 8 , ' ...')}}</p>
-                            <a class="text-center d-block my-5" href="http://www.aldaris.net">www.aldaris.net</a>
-                        </div>
-                    </div>
+{{--                    <div class="col-lg-3">--}}
+{{--                        <div class="box" data-aos="fade-up" data-aos-delay="200">--}}
+{{--                            <img class="img-fluid" src="{{asset('assets/img/company/daras.png')}}"--}}
+{{--                                 alt="{{__('companies/aldares.company_name')}}">--}}
+{{--                            <h3>{{__('companies/aldares.company_name')}}</h3>--}}
+{{--                            <p>{{\Illuminate\Support\Str::words(__('companies/aldares.company_description') , 8 , ' ...')}}</p>--}}
+{{--                            <a class="text-center d-block my-5" href="http://www.aldaris.net">www.aldaris.net</a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                    <div class="col-lg-3">
-                        <div class="box" data-aos="fade-up" data-aos-delay="200">
-                            <img class="img-fluid" src="{{asset('assets/img/company/caterer.png')}}"
-                                 alt="{{__('companies/caterer.company_name')}}">
-                            <h3>{{__('companies/caterer.company_name')}}</h3>
-                            <p>{{\Illuminate\Support\Str::words(__('companies/caterer.company_description') , 8 , ' ...')}}</p>
-                            <a class="text-center d-block my-5"
-                               href="https://www.catererhouse.com">www.catererhouse.com</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+{{--                    <div class="col-lg-3">--}}
+{{--                        <div class="box" data-aos="fade-up" data-aos-delay="200">--}}
+{{--                            <img class="img-fluid" src="{{asset('assets/img/company/caterer.png')}}"--}}
+{{--                                 alt="{{__('companies/caterer.company_name')}}">--}}
+{{--                            <h3>{{__('companies/caterer.company_name')}}</h3>--}}
+{{--                            <p>{{\Illuminate\Support\Str::words(__('companies/caterer.company_description') , 8 , ' ...')}}</p>--}}
+{{--                            <a class="text-center d-block my-5"--}}
+{{--                               href="https://www.catererhouse.com">www.catererhouse.com</a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
-        </section><!-- End Values Section -->
+{{--        </section><!-- End Values Section -->--}}
 
         <section id="team" class="team">
 
@@ -149,6 +149,10 @@
             </div>
 
         </section><!-- End Team Section -->
+
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.0470190116744!2d46.75640608455724!3d24.690910358111832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f06ae97135a9f%3A0x1c06c3a480e41e88!2z2LTYsdmD2Kkg2K_Zitin2LHYp9iqINin2YTYqtis2KfYsdmK2KkgZGV5YXJhdCBjb21wYW55!5e0!3m2!1sar!2ssa!4v1625555925719!5m2!1sar!2ssa" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
     </main><!-- End #main -->
 
 @endsection
