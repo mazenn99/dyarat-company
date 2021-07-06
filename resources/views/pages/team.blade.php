@@ -175,7 +175,7 @@
                             {{--                            </div>--}}
                             <div class="member-info">
                                 <h4>{{__('team.hamdan')}}</h4>
-                                <span>{{__('team.hamdan_position')}}</span>
+                                <span>{{__('team.hamdan_position')}} <br> {{__('team.hamdan_con_position')}}</span>
                                 <!--                    <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>-->
                             </div>
                         </div>
