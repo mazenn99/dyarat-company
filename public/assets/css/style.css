@@ -1442,6 +1442,7 @@ section {
 
 .team .member .member-info {
     padding: 10px 15px 20px 15px;
+    min-width: 210px;
 }
 
 .team .member .member-info h4 {

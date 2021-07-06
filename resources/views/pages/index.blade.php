@@ -124,7 +124,7 @@
         <section id="team" class="team">
 
             <div class="container" data-aos="fade-up">
-
+                <h2 class="text-center">{{__('index.word_boss')}}</h2>
                 <div class="col-lg-12 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                     <div class="member p-5" style="margin: 10px auto 40px">
                         <div class="member-img">

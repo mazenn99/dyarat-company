@@ -9,4 +9,5 @@
         'more' => 'More',
         'our_company' => 'our companies',
         'mother_company' => 'company branches',
+        'word_boss' => 'Chairman\'s word',
     ];
