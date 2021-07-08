@@ -11,25 +11,25 @@
                     {{--                    <p class="mt-5">{{__('team.our_team')}}</p>--}}
                 </header>
 
-                {{--                <div class="col-lg-12 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">--}}
-                {{--                    <div class="member p-5" style="margin: 10px auto 40px">--}}
-                {{--                        <div class="member-img">--}}
-                {{--                            <img src="{{asset('assets/img/team/leadership-profile.png')}}" class="img-fluid" alt="">--}}
-                {{--                            <div class="social">--}}
-                {{--                                --}}{{--                                <a href=""><i class="bi bi-twitter"></i></a>--}}
-                {{--                                --}}{{--                                <a href=""><i class="bi bi-facebook"></i></a>--}}
-                {{--                                --}}{{--                                <a href=""><i class="bi bi-instagram"></i></a>--}}
-                {{--                                <a href="https://www.linkedin.com/in/youcef-al-hamdan-77a0b76/"><i--}}
-                {{--                                        class="bi bi-linkedin"></i></a>--}}
-                {{--                            </div>--}}
-                {{--                        </div>--}}
-                {{--                        <div class="member-info">--}}
-                {{--                            <h4>{{__('team.yousef')}}</h4>--}}
-                {{--                            <span>{{__('team.yousef_position')}}</span>--}}
-                {{--                            <p>{{__('team.yousef_word')}}</p>--}}
-                {{--                        </div>--}}
-                {{--                    </div>--}}
-                {{--                </div>--}}
+                                <div class="col-lg-12 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="member p-5" style="margin: 10px auto 40px">
+{{--                                        <div class="member-img">--}}
+{{--                                            <img src="{{asset('assets/img/team/leadership-profile.png')}}" class="img-fluid" alt="">--}}
+{{--                                            <div class="social">--}}
+{{--                                                                                <a href=""><i class="bi bi-twitter"></i></a>--}}
+{{--                                                                                <a href=""><i class="bi bi-facebook"></i></a>--}}
+{{--                                                                                <a href=""><i class="bi bi-instagram"></i></a>--}}
+{{--                                                <a href="https://www.linkedin.com/in/youcef-al-hamdan-77a0b76/"><i--}}
+{{--                                                        class="bi bi-linkedin"></i></a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+                                        <div class="member-info">
+                                            <h4>{{__('team.yousef')}}</h4>
+                                            <span>{{__('team.yousef_position')}}</span>
+                                            <p>{{__('team.yousef_word')}}</p>
+                                        </div>
+                                    </div>
+                                </div>
 
                 <div>
                     <hr class="mb-5">
