@@ -145,6 +145,28 @@
                     <div class="col-lg-3 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up"
                          data-aos-delay="400">
                         <div class="member p-5">
+
+                            {{--                            <div class="member-img">--}}
+                            {{--                                <img src="{{asset('assets/img/team/leadership-profile.png')}}" class="img-fluid" alt="">--}}
+                            {{--                                <div class="social">--}}
+                            {{--                                    --}}{{--                                    <a href=""><i class="bi bi-twitter"></i></a>--}}
+                            {{--                                    --}}{{--                                    <a href=""><i class="bi bi-facebook"></i></a>--}}
+                            {{--                                    --}}{{--                                    <a href=""><i class="bi bi-instagram"></i></a>--}}
+                            {{--                                    <a href="https://www.linkedin.com/in/ibraheem-hobani/"><i--}}
+                            {{--                                            class="bi bi-linkedin"></i></a>--}}
+                            {{--                                </div>--}}
+                            {{--                            </div>--}}
+                            <div class="member-info">
+                                <h4>{{__('team.mohsen')}}</h4>
+                                <span>{{__('team.mohsen_position')}}</span>
+                                <!--                    <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up"
+                         data-aos-delay="400">
+                        <div class="member p-5">
                             {{--                            <div class="member-img">--}}
                             {{--                                <img src="{{asset('assets/img/team/leadership-profile.png')}}" class="img-fluid" alt="">--}}
                             {{--                                <div class="social">--}}

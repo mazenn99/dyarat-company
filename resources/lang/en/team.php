@@ -13,7 +13,7 @@ return [
     'badr' => 'Bader Yousef Al-Hamdan',
     'badr_position' => 'Managing Director',
 
-    'hamdan' => 'Hamdan Al-Hamdan',
+    'hamdan' => 'Hamdan Yousef Al-Hamdan',
     'hamdan_position' => 'Vice Chairman of the Board and General',
     'hamdan_con_position' => '   Manager of Dar Al-Mamun Company' ,
 
