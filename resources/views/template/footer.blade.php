@@ -25,7 +25,7 @@
                         <img src="{{asset('assets/img/dyarat.png')}}" alt="">
                         <!--              <span>FlexStart</span>-->
                     </a>
-                    <p>{{__('footer.footer_description')}}.</p>
+{{--                    <p>{{__('footer.footer_description')}}.</p>--}}
 {{--                    <div class="social-links mt-3">--}}
 {{--                        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>--}}
 {{--                        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>--}}
@@ -63,7 +63,7 @@
                         {{__('contact.city')}}<br>
                         {{__('contact.ksa')}} <br><br>
                         <strong>{{__('contact.call_us')}}:</strong><a href="tel:+966114740022">+966114740022</a><br>
-                        <strong>{{__('contact.email')}}:</strong><a href="mailto:info@deyarat.com">info@deyarat.com</a>
+                        <strong>{{__('contact.email')}}:</strong><a href="mailto:info@deyarat.com">Public.relation@deyarat.com</a>
                         <br>
                     </p>
 
